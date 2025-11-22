@@ -1,53 +1,78 @@
-[22:51:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[22:51:36] [ServerMain/INFO]: No existing world data, creating new world
-[22:51:37] [ServerMain/INFO]: Loaded 1461 recipes
-[22:51:37] [ServerMain/INFO]: Loaded 1574 advancements
-[22:51:37] [Server thread/INFO]: Starting minecraft server version 1.21.9
-[22:51:37] [Server thread/INFO]: Loading properties
-[22:51:37] [Server thread/INFO]: Default game type: SURVIVAL
-[22:51:37] [Server thread/INFO]: Generating keypair
-[22:51:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:51:37] [Server thread/INFO]: Using default channel type
-[22:51:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:51:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:51:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:51:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:51:37] [Server thread/INFO]: Preparing level "world"
-[22:51:37] [Server thread/INFO]: Selecting global world spawn...
-[22:51:39] [Server thread/INFO]: Loading 0 persistent chunks...
-[22:51:39] [Server thread/INFO]: Preparing spawn area: 100%
-[22:51:39] [Server thread/INFO]: Time elapsed: 1833 ms
-[22:51:39] [Server thread/INFO]: Done (2.000s)! For help, type "help"
-[22:52:39] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:52:41] [Server thread/INFO]: hnngnInsane[/26.153.240.95:55969] logged in with entity id 9 at (-9.5, 96.0, -4.5)
-[22:52:41] [Server thread/INFO]: hnngnInsane joined the game
-[22:53:07] [Server thread/INFO]: coldgod04[/127.0.0.1:59450] logged in with entity id 417 at (-9.5, 103.0, -7.5)
-[22:53:07] [Server thread/INFO]: coldgod04 joined the game
-[22:57:05] [Server thread/INFO]: coldgod04 has made the advancement [Stone Age]
-[22:57:13] [Server thread/INFO]: hnngnInsane has made the advancement [Stone Age]
-[22:57:26] [Server thread/INFO]: coldgod04 has made the advancement [Getting an Upgrade]
-[22:57:27] [Server thread/INFO]: hnngnInsane has made the advancement [Getting an Upgrade]
-[23:09:15] [Server thread/INFO]: hnngnInsane has made the advancement [Monster Hunter]
-[23:10:56] [Server thread/INFO]: coldgod04 has made the advancement [Monster Hunter]
-[23:11:42] [Server thread/INFO]: coldgod04 has made the advancement [Acquire Hardware]
-[23:20:41] [Server thread/INFO]: hnngnInsane has made the advancement [Best Friends Forever]
-[23:23:16] [Server thread/INFO]: hnngnInsane has made the advancement [Sweet Dreams]
-[23:23:17] [Server thread/INFO]: coldgod04 has made the advancement [Sweet Dreams]
-[23:26:25] [Server thread/INFO]: coldgod04 has made the advancement [Best Friends Forever]
-[23:30:26] [Server thread/INFO]: coldgod04 has made the advancement [Isn't It Iron Pick]
-[23:30:42] [Server thread/INFO]: hnngnInsane has made the advancement [Isn't It Iron Pick]
-[23:33:43] [Server thread/INFO]: coldgod04 lost connection: Disconnected
-[23:33:43] [Server thread/INFO]: coldgod04 left the game
-[23:33:46] [Server thread/INFO]: hnngnInsane lost connection: Disconnected
-[23:33:46] [Server thread/INFO]: hnngnInsane left the game
-[23:34:43] [Server thread/INFO]: Stopping the server
-[23:34:43] [Server thread/INFO]: Stopping server
-[23:34:43] [Server thread/INFO]: Saving players
-[23:34:43] [Server thread/INFO]: Saving worlds
-[23:34:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:34:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:34:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:34:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:34:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:34:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:34:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:18:55] [ServerMain/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[21:18:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:18:59] [ServerMain/INFO]: Loaded 1461 recipes
+[21:18:59] [ServerMain/INFO]: Loaded 1574 advancements
+[21:19:00] [Server thread/INFO]: Starting minecraft server version 1.21.9
+[21:19:00] [Server thread/INFO]: Loading properties
+[21:19:00] [Server thread/INFO]: Default game type: SURVIVAL
+[21:19:00] [Server thread/INFO]: Generating keypair
+[21:19:00] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at aro$1.run(SourceFile:189) [server-1.21.9.jar:?]
+[21:19:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:19:00] [Server thread/INFO]: Using default channel type
+[21:19:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:19:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:19:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:19:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:19:00] [Server thread/INFO]: Preparing level "world"
+[21:19:01] [Server thread/INFO]: Loading 0 persistent chunks...
+[21:19:01] [Server thread/INFO]: Preparing spawn area: 100%
+[21:19:01] [Server thread/INFO]: Time elapsed: 12 ms
+[21:19:01] [Server thread/INFO]: Done (0.402s)! For help, type "help"
+[21:20:01] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:21:16] [Server thread/INFO]: dcmm[/127.0.0.1:55467] logged in with entity id 7 at (-2.5, 102.0, -1.5)
+[21:21:16] [Server thread/INFO]: dcmm joined the game
+[21:21:33] [Server thread/INFO]: dcmm lost connection: Disconnected
+[21:21:33] [Server thread/INFO]: dcmm left the game
+[21:22:33] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:22:49] [Server thread/INFO]: hnngnInsane[/100.120.228.104:56144] logged in with entity id 347 at (-1430.1474609375, 62.11076428646973, 0.5498046875)
+[21:22:49] [Server thread/INFO]: hnngnInsane joined the game
+[21:23:00] [Server thread/INFO]: hnngnInsane lost connection: Disconnected
+[21:23:00] [Server thread/INFO]: hnngnInsane left the game
+[21:24:00] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:25:03] [Server thread/INFO]: No player was found
+[21:58:50] [Server thread/INFO]: hnngnInsane[/100.120.228.104:59206] logged in with entity id 572 at (-1430.1474609375, 63.085764312744146, 0.5498046875)
+[21:58:50] [Server thread/INFO]: hnngnInsane joined the game
+[22:00:29] [Server thread/INFO]: coldgod04[/26.111.204.217:54602] logged in with entity id 856 at (-1430.1473892975582, 62.110764312751336, 0.5497088589446233)
+[22:00:29] [Server thread/INFO]: coldgod04 joined the game
+[22:00:40] [Server thread/INFO]: [Not Secure] <coldgod04> oh yes
+[22:00:49] [Server thread/INFO]: [Not Secure] <hnngnInsane> yes
+[22:00:59] [Server thread/INFO]: [Not Secure] <coldgod04> discord?
+[22:01:00] [Server thread/INFO]: [Not Secure] <hnngnInsane> dcm quen
+[22:01:07] [Server thread/INFO]: [Not Secure] <hnngnInsane> cho ti
+[22:01:14] [Server thread/INFO]: [Not Secure] <hnngnInsane> kha lang phai an thit con cho dei
+[22:01:24] [Server thread/INFO]: [Not Secure] <coldgod04> Ko dc dau :))
+[22:16:17] [Server thread/INFO]: [Not Secure] <coldgod04> play.iy
+[22:16:22] [Server thread/INFO]: [Not Secure] <coldgod04> play.it
+[22:29:22] [Server thread/INFO]: hnngnInsane has made the advancement [A Seedy Place]
+[22:30:02] [Server thread/INFO]: coldgod04 lost connection: Disconnected
+[22:30:02] [Server thread/INFO]: coldgod04 left the game
+[22:30:06] [Server thread/INFO]: hnngnInsane lost connection: Disconnected
+[22:30:06] [Server thread/INFO]: hnngnInsane left the game
+[22:31:06] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:33:53] [Server thread/INFO]: Stopping the server
+[22:33:53] [Server thread/INFO]: Stopping server
+[22:33:53] [Server thread/INFO]: Saving players
+[22:33:53] [Server thread/INFO]: Saving worlds
+[22:33:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:33:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:33:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

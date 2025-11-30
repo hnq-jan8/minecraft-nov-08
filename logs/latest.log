@@ -1,12 +1,12 @@
-[21:18:55] [ServerMain/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[21:18:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[21:18:59] [ServerMain/INFO]: Loaded 1461 recipes
-[21:18:59] [ServerMain/INFO]: Loaded 1574 advancements
-[21:19:00] [Server thread/INFO]: Starting minecraft server version 1.21.9
-[21:19:00] [Server thread/INFO]: Loading properties
-[21:19:00] [Server thread/INFO]: Default game type: SURVIVAL
-[21:19:00] [Server thread/INFO]: Generating keypair
-[21:19:00] [Server console handler/ERROR]: Exception handling console input
+[22:48:11] [ServerMain/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[22:48:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:48:16] [ServerMain/INFO]: Loaded 1461 recipes
+[22:48:16] [ServerMain/INFO]: Loaded 1574 advancements
+[22:48:17] [Server thread/INFO]: Starting minecraft server version 1.21.9
+[22:48:17] [Server thread/INFO]: Loading properties
+[22:48:17] [Server thread/INFO]: Default game type: SURVIVAL
+[22:48:17] [Server thread/INFO]: Generating keypair
+[22:48:17] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -23,56 +23,110 @@ java.io.IOException: The handle is invalid
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at aro$1.run(SourceFile:189) [server-1.21.9.jar:?]
-[21:19:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:19:00] [Server thread/INFO]: Using default channel type
-[21:19:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:19:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:19:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:19:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:19:00] [Server thread/INFO]: Preparing level "world"
-[21:19:01] [Server thread/INFO]: Loading 0 persistent chunks...
-[21:19:01] [Server thread/INFO]: Preparing spawn area: 100%
-[21:19:01] [Server thread/INFO]: Time elapsed: 12 ms
-[21:19:01] [Server thread/INFO]: Done (0.402s)! For help, type "help"
-[21:20:01] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:21:16] [Server thread/INFO]: dcmm[/127.0.0.1:55467] logged in with entity id 7 at (-2.5, 102.0, -1.5)
-[21:21:16] [Server thread/INFO]: dcmm joined the game
-[21:21:33] [Server thread/INFO]: dcmm lost connection: Disconnected
-[21:21:33] [Server thread/INFO]: dcmm left the game
-[21:22:33] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:22:49] [Server thread/INFO]: hnngnInsane[/100.120.228.104:56144] logged in with entity id 347 at (-1430.1474609375, 62.11076428646973, 0.5498046875)
-[21:22:49] [Server thread/INFO]: hnngnInsane joined the game
-[21:23:00] [Server thread/INFO]: hnngnInsane lost connection: Disconnected
-[21:23:00] [Server thread/INFO]: hnngnInsane left the game
-[21:24:00] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:25:03] [Server thread/INFO]: No player was found
-[21:58:50] [Server thread/INFO]: hnngnInsane[/100.120.228.104:59206] logged in with entity id 572 at (-1430.1474609375, 63.085764312744146, 0.5498046875)
-[21:58:50] [Server thread/INFO]: hnngnInsane joined the game
-[22:00:29] [Server thread/INFO]: coldgod04[/26.111.204.217:54602] logged in with entity id 856 at (-1430.1473892975582, 62.110764312751336, 0.5497088589446233)
-[22:00:29] [Server thread/INFO]: coldgod04 joined the game
-[22:00:40] [Server thread/INFO]: [Not Secure] <coldgod04> oh yes
-[22:00:49] [Server thread/INFO]: [Not Secure] <hnngnInsane> yes
-[22:00:59] [Server thread/INFO]: [Not Secure] <coldgod04> discord?
-[22:01:00] [Server thread/INFO]: [Not Secure] <hnngnInsane> dcm quen
-[22:01:07] [Server thread/INFO]: [Not Secure] <hnngnInsane> cho ti
-[22:01:14] [Server thread/INFO]: [Not Secure] <hnngnInsane> kha lang phai an thit con cho dei
-[22:01:24] [Server thread/INFO]: [Not Secure] <coldgod04> Ko dc dau :))
-[22:16:17] [Server thread/INFO]: [Not Secure] <coldgod04> play.iy
-[22:16:22] [Server thread/INFO]: [Not Secure] <coldgod04> play.it
-[22:29:22] [Server thread/INFO]: hnngnInsane has made the advancement [A Seedy Place]
-[22:30:02] [Server thread/INFO]: coldgod04 lost connection: Disconnected
-[22:30:02] [Server thread/INFO]: coldgod04 left the game
-[22:30:06] [Server thread/INFO]: hnngnInsane lost connection: Disconnected
-[22:30:06] [Server thread/INFO]: hnngnInsane left the game
-[22:31:06] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:33:53] [Server thread/INFO]: Stopping the server
-[22:33:53] [Server thread/INFO]: Stopping server
-[22:33:53] [Server thread/INFO]: Saving players
-[22:33:53] [Server thread/INFO]: Saving worlds
-[22:33:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:33:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:33:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:33:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:48:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:48:17] [Server thread/INFO]: Using default channel type
+[22:48:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:48:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:48:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:48:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:48:17] [Server thread/INFO]: Preparing level "world"
+[22:48:17] [Server thread/INFO]: Loading 0 persistent chunks...
+[22:48:17] [Server thread/INFO]: Preparing spawn area: 100%
+[22:48:17] [Server thread/INFO]: Time elapsed: 12 ms
+[22:48:17] [Server thread/INFO]: Done (0.349s)! For help, type "help"
+[22:49:14] [Server thread/INFO]: Can't find element 'minecraft:thunderbolt' of type 'minecraft:entity_type'
+[22:49:14] [Server thread/INFO]: ...hunderbolt<--[HERE]
+[22:49:17] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:49:31] [Server thread/INFO]: Can't find element 'minecraft:thunder' of type 'minecraft:entity_type'
+[22:49:31] [Server thread/INFO]: ...on thunder<--[HERE]
+[22:51:50] [Server thread/INFO]: hnngnInsane[/127.0.0.1:60071] logged in with entity id 64 at (-3676.4067079446468, 64.0, 81.48478971982163)
+[22:51:50] [Server thread/INFO]: hnngnInsane joined the game
+[22:51:59] [Server thread/INFO]: Can't find element 'minecraft:thunder' of type 'minecraft:entity_type'
+[22:51:59] [Server thread/INFO]: ...on thunder<--[HERE]
+[22:52:06] [Server thread/INFO]: Can't find element 'minecraft:thunder' of type 'minecraft:entity_type'
+[22:52:06] [Server thread/INFO]: ...on thunder hnngnInsane<--[HERE]
+[22:52:13] [Server thread/INFO]: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type'
+[22:52:13] [Server thread/INFO]: ... lightning<--[HERE]
+[22:52:22] [Server thread/INFO]: Summoned new Iron Golem
+[22:52:59] [Server thread/INFO]: Summoned new Zombie
+[22:53:11] [Server thread/INFO]: Expected double
+[22:53:11] [Server thread/INFO]: ...on zombie hnngnInsane<--[HERE]
+[22:53:44] [Server thread/INFO]: Unknown item 'minecraft:thunder'
+[22:53:44] [Server thread/INFO]: ...ngnInsane thunder<--[HERE]
+[22:53:47] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[22:53:47] [Server thread/INFO]: thunder<--[HERE]
+[22:54:11] [Server thread/INFO]: Summoned new Lightning Bolt
+[22:54:33] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[22:54:33] [Server thread/INFO]: ...mon zombie<--[HERE]
+[22:54:46] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[22:54:46] [Server thread/INFO]: hnngnInsane summon zombie<--[HERE]
+[22:55:27] [Server thread/INFO]: Incorrect argument for command
+[22:55:27] [Server thread/INFO]: ...ngnInsane ~ ~ ~ run summon minecraft:lightning_bolt ~ ~ ~<--[HERE]
+[22:55:37] [Server thread/INFO]: Incorrect argument for command
+[22:55:37] [Server thread/INFO]: ...layerName ~ ~ ~ run summon minecraft:lightning_bolt ~ ~ ~<--[HERE]
+[22:56:03] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[22:56:03] [Server thread/INFO]: ...mon zombie<--[HERE]
+[22:56:06] [Server thread/INFO]: Summoned new Zombie
+[22:56:09] [Server thread/INFO]: A player is required to run this command here
+[23:01:49] [Server thread/INFO]: Villager cyx['Fisherman'/28, l='ServerLevel[world]', x=-3669.64, y=66.00, z=147.65] died, message: 'Fisherman was slain by hnngnInsane'
+[23:02:37] [Server thread/INFO]: Kicked hnngnInsane: Kicked by an operator
+[23:02:37] [Server thread/INFO]: hnngnInsane lost connection: Kicked by an operator
+[23:02:37] [Server thread/INFO]: hnngnInsane left the game
+[23:02:43] [Server thread/INFO]: hnngnInsane[/127.0.0.1:62527] logged in with entity id 2291 at (-3677.320381459014, 64.0, 81.398693187724)
+[23:02:43] [Server thread/INFO]: hnngnInsane joined the game
+[23:02:53] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[23:02:53] [Server thread/INFO]: send hnngnInsane fuck<--[HERE]
+[23:03:41] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[23:03:41] [Server thread/INFO]: msg cccc<--[HERE]
+[23:03:52] [Server thread/INFO]: You whisper to hnngnInsane: fuck
+[23:04:07] [Server thread/INFO]: You whisper to hnngnInsane: fuck
+[23:04:19] [Server thread/INFO]: [Not Secure] [Server] fuck
+[23:04:38] [Server thread/INFO]: [Not Secure] [Server] fuck
+[23:04:43] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[23:04:43] [Server thread/INFO]: w fuck<--[HERE]
+[23:04:49] [Server thread/INFO]: You whisper to hnngnInsane: địt con mẹ mày
+[23:05:47] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[23:05:47] [Server thread/INFO]: ban<--[HERE]
+[23:05:58] [Server thread/INFO]: Expected float
+[23:05:58] [Server thread/INFO]: ...r thunder storm<--[HERE]
+[23:06:04] [Server thread/INFO]: Incorrect argument for command
+[23:06:04] [Server thread/INFO]: weather set thunder storm<--[HERE]
+[23:06:08] [Server thread/INFO]: Set the weather to rain & thunder
+[23:07:21] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[23:07:21] [Server thread/INFO]: t lồn<--[HERE]
+[23:07:28] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+[23:07:28] [Server thread/INFO]: tell lồn<--[HERE]
+[23:07:34] [Server thread/INFO]: [Not Secure] [Server] lồn
+[23:07:51] [Server thread/INFO]: [Not Secure] <hnngnInsane> say địt con mẹ mày
+[23:08:57] [Server thread/INFO]: [Not Secure] <hnngnInsane> địt mẹ
+[23:09:07] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+[23:09:07] [Server thread/INFO]: w lồn<--[HERE]
+[23:09:13] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[23:09:13] [Server thread/INFO]: t lồn<--[HERE]
+[23:09:15] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+[23:09:15] [Server thread/INFO]: tell lồn<--[HERE]
+[23:09:18] [Server thread/INFO]: [Not Secure] [Server] lồn
+[23:09:36] [Server thread/INFO]: You whisper to hnngnInsane: loofn
+[23:09:44] [Server thread/INFO]: No player was found
+[23:09:50] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+[23:09:50] [Server thread/INFO]: msg lồn<--[HERE]
+[23:09:59] [Server thread/INFO]: [Not Secure] [Server] lồn
+[23:10:04] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[23:10:04] [Server thread/INFO]: quit<--[HERE]
+[23:10:09] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[23:10:09] [Server thread/INFO]: exit<--[HERE]
+[23:10:11] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[23:10:11] [Server thread/INFO]: pause<--[HERE]
+[23:10:15] [Server thread/INFO]: Stopping the server
+[23:10:15] [Server thread/INFO]: Stopping server
+[23:10:15] [Server thread/INFO]: Saving players
+[23:10:15] [Server thread/INFO]: hnngnInsane lost connection: Server closed
+[23:10:15] [Server thread/INFO]: hnngnInsane left the game
+[23:10:15] [Server thread/INFO]: Saving worlds
+[23:10:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:10:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:10:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:10:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:10:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:10:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:10:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

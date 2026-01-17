@@ -1,132 +1,15 @@
-[22:48:11] [ServerMain/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[22:48:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[22:48:16] [ServerMain/INFO]: Loaded 1461 recipes
-[22:48:16] [ServerMain/INFO]: Loaded 1574 advancements
-[22:48:17] [Server thread/INFO]: Starting minecraft server version 1.21.9
-[22:48:17] [Server thread/INFO]: Loading properties
-[22:48:17] [Server thread/INFO]: Default game type: SURVIVAL
-[22:48:17] [Server thread/INFO]: Generating keypair
-[22:48:17] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
-	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
-	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
-	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
-	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
-	at aro$1.run(SourceFile:189) [server-1.21.9.jar:?]
-[22:48:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:48:17] [Server thread/INFO]: Using default channel type
-[22:48:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:48:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:48:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:48:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:48:17] [Server thread/INFO]: Preparing level "world"
-[22:48:17] [Server thread/INFO]: Loading 0 persistent chunks...
-[22:48:17] [Server thread/INFO]: Preparing spawn area: 100%
-[22:48:17] [Server thread/INFO]: Time elapsed: 12 ms
-[22:48:17] [Server thread/INFO]: Done (0.349s)! For help, type "help"
-[22:49:14] [Server thread/INFO]: Can't find element 'minecraft:thunderbolt' of type 'minecraft:entity_type'
-[22:49:14] [Server thread/INFO]: ...hunderbolt<--[HERE]
-[22:49:17] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:49:31] [Server thread/INFO]: Can't find element 'minecraft:thunder' of type 'minecraft:entity_type'
-[22:49:31] [Server thread/INFO]: ...on thunder<--[HERE]
-[22:51:50] [Server thread/INFO]: hnngnInsane[/127.0.0.1:60071] logged in with entity id 64 at (-3676.4067079446468, 64.0, 81.48478971982163)
-[22:51:50] [Server thread/INFO]: hnngnInsane joined the game
-[22:51:59] [Server thread/INFO]: Can't find element 'minecraft:thunder' of type 'minecraft:entity_type'
-[22:51:59] [Server thread/INFO]: ...on thunder<--[HERE]
-[22:52:06] [Server thread/INFO]: Can't find element 'minecraft:thunder' of type 'minecraft:entity_type'
-[22:52:06] [Server thread/INFO]: ...on thunder hnngnInsane<--[HERE]
-[22:52:13] [Server thread/INFO]: Can't find element 'minecraft:lightning' of type 'minecraft:entity_type'
-[22:52:13] [Server thread/INFO]: ... lightning<--[HERE]
-[22:52:22] [Server thread/INFO]: Summoned new Iron Golem
-[22:52:59] [Server thread/INFO]: Summoned new Zombie
-[22:53:11] [Server thread/INFO]: Expected double
-[22:53:11] [Server thread/INFO]: ...on zombie hnngnInsane<--[HERE]
-[22:53:44] [Server thread/INFO]: Unknown item 'minecraft:thunder'
-[22:53:44] [Server thread/INFO]: ...ngnInsane thunder<--[HERE]
-[22:53:47] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[22:53:47] [Server thread/INFO]: thunder<--[HERE]
-[22:54:11] [Server thread/INFO]: Summoned new Lightning Bolt
-[22:54:33] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[22:54:33] [Server thread/INFO]: ...mon zombie<--[HERE]
-[22:54:46] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[22:54:46] [Server thread/INFO]: hnngnInsane summon zombie<--[HERE]
-[22:55:27] [Server thread/INFO]: Incorrect argument for command
-[22:55:27] [Server thread/INFO]: ...ngnInsane ~ ~ ~ run summon minecraft:lightning_bolt ~ ~ ~<--[HERE]
-[22:55:37] [Server thread/INFO]: Incorrect argument for command
-[22:55:37] [Server thread/INFO]: ...layerName ~ ~ ~ run summon minecraft:lightning_bolt ~ ~ ~<--[HERE]
-[22:56:03] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[22:56:03] [Server thread/INFO]: ...mon zombie<--[HERE]
-[22:56:06] [Server thread/INFO]: Summoned new Zombie
-[22:56:09] [Server thread/INFO]: A player is required to run this command here
-[23:01:49] [Server thread/INFO]: Villager cyx['Fisherman'/28, l='ServerLevel[world]', x=-3669.64, y=66.00, z=147.65] died, message: 'Fisherman was slain by hnngnInsane'
-[23:02:37] [Server thread/INFO]: Kicked hnngnInsane: Kicked by an operator
-[23:02:37] [Server thread/INFO]: hnngnInsane lost connection: Kicked by an operator
-[23:02:37] [Server thread/INFO]: hnngnInsane left the game
-[23:02:43] [Server thread/INFO]: hnngnInsane[/127.0.0.1:62527] logged in with entity id 2291 at (-3677.320381459014, 64.0, 81.398693187724)
-[23:02:43] [Server thread/INFO]: hnngnInsane joined the game
-[23:02:53] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[23:02:53] [Server thread/INFO]: send hnngnInsane fuck<--[HERE]
-[23:03:41] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[23:03:41] [Server thread/INFO]: msg cccc<--[HERE]
-[23:03:52] [Server thread/INFO]: You whisper to hnngnInsane: fuck
-[23:04:07] [Server thread/INFO]: You whisper to hnngnInsane: fuck
-[23:04:19] [Server thread/INFO]: [Not Secure] [Server] fuck
-[23:04:38] [Server thread/INFO]: [Not Secure] [Server] fuck
-[23:04:43] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[23:04:43] [Server thread/INFO]: w fuck<--[HERE]
-[23:04:49] [Server thread/INFO]: You whisper to hnngnInsane: địt con mẹ mày
-[23:05:47] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[23:05:47] [Server thread/INFO]: ban<--[HERE]
-[23:05:58] [Server thread/INFO]: Expected float
-[23:05:58] [Server thread/INFO]: ...r thunder storm<--[HERE]
-[23:06:04] [Server thread/INFO]: Incorrect argument for command
-[23:06:04] [Server thread/INFO]: weather set thunder storm<--[HERE]
-[23:06:08] [Server thread/INFO]: Set the weather to rain & thunder
-[23:07:21] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[23:07:21] [Server thread/INFO]: t lồn<--[HERE]
-[23:07:28] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
-[23:07:28] [Server thread/INFO]: tell lồn<--[HERE]
-[23:07:34] [Server thread/INFO]: [Not Secure] [Server] lồn
-[23:07:51] [Server thread/INFO]: [Not Secure] <hnngnInsane> say địt con mẹ mày
-[23:08:57] [Server thread/INFO]: [Not Secure] <hnngnInsane> địt mẹ
-[23:09:07] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
-[23:09:07] [Server thread/INFO]: w lồn<--[HERE]
-[23:09:13] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[23:09:13] [Server thread/INFO]: t lồn<--[HERE]
-[23:09:15] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
-[23:09:15] [Server thread/INFO]: tell lồn<--[HERE]
-[23:09:18] [Server thread/INFO]: [Not Secure] [Server] lồn
-[23:09:36] [Server thread/INFO]: You whisper to hnngnInsane: loofn
-[23:09:44] [Server thread/INFO]: No player was found
-[23:09:50] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
-[23:09:50] [Server thread/INFO]: msg lồn<--[HERE]
-[23:09:59] [Server thread/INFO]: [Not Secure] [Server] lồn
-[23:10:04] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[23:10:04] [Server thread/INFO]: quit<--[HERE]
-[23:10:09] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[23:10:09] [Server thread/INFO]: exit<--[HERE]
-[23:10:11] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[23:10:11] [Server thread/INFO]: pause<--[HERE]
-[23:10:15] [Server thread/INFO]: Stopping the server
-[23:10:15] [Server thread/INFO]: Stopping server
-[23:10:15] [Server thread/INFO]: Saving players
-[23:10:15] [Server thread/INFO]: hnngnInsane lost connection: Server closed
-[23:10:15] [Server thread/INFO]: hnngnInsane left the game
-[23:10:15] [Server thread/INFO]: Saving worlds
-[23:10:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:10:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:10:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:10:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:10:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:10:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:10:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:46:31] [Server thread/INFO]: hnngnInsane[/127.0.0.1:55844] logged in with entity id 160962 at (-3727.0450268010313, 63.0, 112.62147465828085)
+[02:46:31] [Server thread/INFO]: hnngnInsane joined the game
+[03:01:13] [Server thread/INFO]: hnngnInsane lost connection: Disconnected
+[03:01:13] [Server thread/INFO]: hnngnInsane left the game
+[03:01:16] [Server thread/INFO]: Stopping the server
+[03:01:16] [Server thread/INFO]: Stopping server
+[03:01:16] [Server thread/INFO]: Saving players
+[03:01:16] [Server thread/INFO]: Saving worlds
+[03:01:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:01:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:01:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:01:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:01:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:01:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:01:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
